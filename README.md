@@ -1,4 +1,4 @@
-SG-IO-E017 from seengreat:www.seengreat.com
+MCP23017-SG-IO-E017 from seengreat:www.seengreat.com
  =======================================
 # Instructions
 ## 1.1、Overview
@@ -28,7 +28,7 @@ The module with Raspberry Pi motherboard wiring is defined in the following tabl
 |INTA 	|PA port interrupt pin	|P0(wiringpi number)|
 |INTB	|PB port interrupt pin	|P1(wiringpi number)|
 
-Table2-1 Definition of SG-IO-E017 and Raspberry Pi pin
+Table2-1 Definition of SG-IO-E017 and Raspberry Pi pin<br>
 The Raspberry Pi is connected to the module, and the wiring diagram is shown in Table2-1.<br>
 ### 2.1.2、Demo Codes Usage
 #### 2.1.2.1、Wiringpi library installation
