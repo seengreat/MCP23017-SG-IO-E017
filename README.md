@@ -1,4 +1,4 @@
-SG-IO-E017E017-A from seengreat:www.seengreat.com
+SG-IO-E017 from seengreat:www.seengreat.com
  =======================================
 # Instructions
 ## 1.1、Overview
@@ -28,7 +28,7 @@ The module with Raspberry Pi motherboard wiring is defined in the following tabl
 |INTA 	|PA port interrupt pin	|P0(wiringpi number)|
 |INTB	|PB port interrupt pin	|P1(wiringpi number)|
 
-     Table2-1 Definition of SG-IO-E017 and Raspberry Pi pin<br>
+Table2-1 Definition of SG-IO-E017 and Raspberry Pi pin
 The Raspberry Pi is connected to the module, and the wiring diagram is shown in Table2-1.<br>
 ### 2.1.2、Demo Codes Usage
 #### 2.1.2.1、Wiringpi library installation
@@ -100,7 +100,7 @@ The wiring between the module and Arduino pins is shown in the following table:<
 |INTA	|PA port interrupt pin	|D2|
 |INTB	|PB port interrupt pin	|D3|<br>
 
-      Table2-2 Definition of SG-IO-E017 and Arduino <br>
+Table2-2 Definition of SG-IO-E017 and Arduino <br>
 ### 2.2.2、Demo codes usage
 Open the project file demo codes\Arduino\mcp23017\mcp23017.ino with the Arduino IED, click Verify, and upload it to the development board after verification.<br>
 Click the tool, open the serial port monitor, set the baud rate to 115200, and observe the data changes.<br>
