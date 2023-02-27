@@ -1,4 +1,4 @@
-SG-IO-E017 from seengreat:www.seengreat.com
+SG-IO-E017E017-A from seengreat:www.seengreat.com
  =======================================
 # Instructions
 ## 1.1、Overview
@@ -98,8 +98,9 @@ The wiring between the module and Arduino pins is shown in the following table:<
 |SDA	|I2C data line	|SDA|
 |SCL	|I2C clock line	|SCL|
 |INTA	|PA port interrupt pin	|D2|
-|INTB	|PB port interrupt pin	|D3|
-Table2-2 Definition of SG-IO-E017 and Arduino <br>
+|INTB	|PB port interrupt pin	|D3|<br>
+
+      Table2-2 Definition of SG-IO-E017 and Arduino <br>
 ### 2.2.2、Demo codes usage
 Open the project file demo codes\Arduino\mcp23017\mcp23017.ino with the Arduino IED, click Verify, and upload it to the development board after verification.<br>
 Click the tool, open the serial port monitor, set the baud rate to 115200, and observe the data changes.<br>
@@ -112,7 +113,8 @@ Click the tool, open the serial port monitor, set the baud rate to 115200, and o
 |SDA	|I2C data line	|PB11|
 |SCL	|I2C clock line	|PB10|
 |INTA	|PA port interrupt pin	|PB3|
-|INTB	|PB port interrupt pin	|PB4|
+|INTB	|PB port interrupt pin	|PB4|<br>
+
 Table2-3 Definition of SG-IO-E017 and STM32 <br>
 ### 2.3.2、Demo codes usage
 Open the main. Uvprojx project file in the directory demo codes\STM32\USER with Keil_Vision5 software, and connect the module with STM32 according to the above table; The program is downloaded to the STM32 development board after being compiled without errors;<br>
